@@ -1,4 +1,4 @@
-package com.tieroneoss.mockapi.controller;
+package com.example.mockapi.controller;
 
 
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -15,11 +15,11 @@ import java.util.List;
 public class APIController{
 
     @GetMapping("/data")
-    public List<com.tieroneoss.mockapi.controller.Data> getData(){
+    public List<Data> getData(){
         return Arrays.asList(
-                new com.tieroneoss.mockapi.controller.Data(1, "data1", "Ten"),
-                new com.tieroneoss.mockapi.controller.Data(2, "data2", "Ten"),
-                new com.tieroneoss.mockapi.controller.Data(3, "data3", "Ten")
+                new Data(1, "data1", "Ten"),
+                new Data(2, "data2", "Ten"),
+                new Data(3, "data3", "Ten")
         );
     }
 }

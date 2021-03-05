@@ -1,4 +1,4 @@
-package com.tieroneoss.mockapi;
+package com.example.mockapi;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

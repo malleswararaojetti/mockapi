@@ -1,4 +1,4 @@
-package com.tieroneoss.mockapi;
+package com.example.mockapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
